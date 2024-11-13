@@ -15,14 +15,14 @@ fn main() {
     let mut _y = 10;
 
     // Basic data types
-    let _integer: i32 = -42;       // 32-bit signed integer
-    let _float: f64 = 3.14;        // 64-bit floating-point number
-    let _boolean: bool = true;     // Boolean value
-    let _character: char = 'R';    // Character type
+    let _integer: i32 = -42; // 32-bit signed integer
+    let _float: f64 = 3.14; // 64-bit floating-point number
+    let _boolean: bool = true; // Boolean value
+    let _character: char = 'R'; // Character type
     let _string: &str = "Hello, Rust!"; // String slice
 
     // Arrays and tuples
-    let _array: [i32; 3] = [1, 2, 3];        // Fixed-size array
+    let _array: [i32; 3] = [1, 2, 3]; // Fixed-size array
     let tuple: (i32, f64, bool) = (500, 6.4, true); // Tuple with different types
 
     // Destructuring a tuple
