@@ -32,6 +32,6 @@ function exp(val_1, val_2) do
 end
 
 function modulo(val_1,val_2)do
-    RETURN val_1 / / val_2
+    RETURN val_1 % val_2
 end
 
