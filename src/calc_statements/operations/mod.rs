@@ -1,11 +1,11 @@
 pub mod operations {
     /// Return the result for the given operation and two values.
-    pub fn get_operation_result(val_1: f32, opr: char, val_2: f32) -> f32 {
-        match opr {
-            '*' => multiply(val_1, val_2),
-            '/' => divide(val_1, val_2),
-            '+' => add(val_1, val_2),
-            '-' => subtract(val_1, val_2),
+    pub fn get_operation_result(val_1: f32, opr: String, val_2: f32) -> f32 {
+        match opr.as_str() {
+            "*" => multiply(val_1, val_2),
+            "/" => divide(val_1, val_2),
+            "+" => add(val_1, val_2),
+            "-" => subtract(val_1, val_2),
             _ => {
                 println!("Invalid operation.");
                 return 0.0;

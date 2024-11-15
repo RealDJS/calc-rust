@@ -32,9 +32,9 @@ To recreate the development environment, you need the following software and/or 
 
 I found these websites useful in developing this software:
 
-- [Website Title](Link)
--
--
+- [tutorialspoint: rust](https://www.tutorialspoint.com/rust/index.htmk)
+- [Rust by Example](https://doc.rust-lang.org/rust-by-example/index.html)
+- [The Rust Programming Language](https://doc.rust-lang.org/book/title-page.html)
 
 ## Future Work
 
