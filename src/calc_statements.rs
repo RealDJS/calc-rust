@@ -16,7 +16,7 @@ pub mod calc_statements {
 
         let result: f32 = get_operation_result(val_1, opr, val_2);
 
-        println!("{:?}", list);
+        //println!("{:?}", list);
 
         result
     }
