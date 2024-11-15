@@ -16,13 +16,11 @@ pub mod calc_statements {
 
         let result: f32 = get_operation_result(val_1, opr, val_2);
 
-        //println!("{:?}", list);
-
         result
     }
 
     fn parse_num(number: char) -> f32 {
-        let num = number;
+        let num: char = number;
 
         match num.to_string().parse::<f32>() {
             Ok(num) => return num,

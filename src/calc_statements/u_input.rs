@@ -2,9 +2,9 @@ pub mod u_input {
     use std::io;
 
     pub fn get_operation_set() -> Vec<char> {
-        let input = get_input();
+        let input: String = get_input();
 
-        let list = get_chars(input);
+        let list: Vec<char> = get_chars(input);
 
         list
     }
