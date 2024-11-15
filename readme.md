@@ -40,6 +40,6 @@ I found these websites useful in developing this software:
 
 The following items I plan to fix, improve, and/or add to this project in the future:
 
-- [ ] First thing here
-- [ ]
+- [ ] Work with multiple statements in one line.
+- [ ] Use link-trees to implement multiple calculations.
 - [ ]
